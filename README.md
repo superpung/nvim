@@ -24,7 +24,7 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
   export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
   ```
 
-1. [lazygit](https://github.com/jesseduffield/lazygit):
+2. [lazygit](https://github.com/jesseduffield/lazygit):
 
   ```sh
   # macOS
@@ -35,4 +35,16 @@ Refer to the [documentation](https://lazyvim.github.io/installation) to get star
   curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/download/v${LAZYGIT_VERSION}/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
   tar xf lazygit.tar.gz lazygit
   sudo install lazygit -D -t /usr/local/bin/
+```
+
+3. [fzf](https://github.com/junegunn/fzf):
+
+  ```sh
+  # macOS
+  brew install fzf
+  # Ubuntu
+  sudo apt install fzf
+  # Other Linux
+  curl -LO https://github.com/junegunn/fzf/releases/download/v0.60.3/fzf-0.60.3-linux_amd64.tar.gz
+  tar -C /usr/local/bin/ -xzf fzf-0.60.3.-linux_amd64.tar.gz
   ```
